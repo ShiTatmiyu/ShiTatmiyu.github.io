@@ -80,10 +80,10 @@ import {
       name: "MySql",
       icon: mongodb,
     },
-    // {
-    //   name: "git",
-    //   icon: git,
-    // },
+    {
+      name: "git",
+      icon: git,
+    },
     {
       name: "figma",
       icon: figma,
@@ -219,4 +219,5 @@ import {
     },
   ];
   
+
   export { services, technologies, experiences, testimonials, projects };
