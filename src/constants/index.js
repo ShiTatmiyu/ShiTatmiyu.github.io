@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    photo,
   } from "../assets";
   
   export const navLinks = [
@@ -150,11 +151,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "i thought it's impossible but after working on the game with Refan it's possible to finish the game.",
+      name: "Rafii (Akari)",
+      designation: "Partner",
+      company: "Game Jam",
+      image: photo,
     },
     {
       testimonial:
@@ -181,15 +182,15 @@ import {
         "Web-based platform that enables educators to effectively monitor students' daily prayer attendance, fostering transparent communication. This tool enhances accountability and contributes to a holistic educational environment.",
       tags: [
         {
-          name: "codeigniter4",
+          name: "Codeigniter4",
           color: "blue-text-gradient",
         },
         {
-          name: "mysql",
+          name: "MySql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
@@ -197,25 +198,42 @@ import {
       source_code_link: "https://github.com/ShiTatmiyu/sistem-abi",
     },
     {
-      name: "Job IT",
+      name: "Laravel website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Creating my first Laravel website to gain practical web development experience and explore Laravel's capabilities, aiming to build a strong foundation in modern PHP-based web development..",
       tags: [
         {
-          name: "react",
+          name: "Laravel",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "MySql",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/ShiTatmiyu/Ecommerce",
+    },
+    {
+      name: "Mr.Umbrella Game Demo",
+      description:
+        "Experience innovative game development with GDevelop 5. Our team crafts professional desktop games, diving into a world of creativity and innovation.",
+      tags: [
+        {
+          name: "Gdevelop5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "GameDeveloper",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ShiTatmiyu/Mr.Umbrella",
     },
   ];
   
