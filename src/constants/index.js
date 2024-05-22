@@ -100,42 +100,9 @@ import {
   ];
   
   const experiences = [
-    {
-      title: "Intern Developer",
-      company_name: "Bulanan App",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "July 2020",
-      points: [
-        "Mastering the seamless integration of CSS within HTML for precise design implementation.",
-        "Acquiring proficiency in utilizing the Bootstrap framework for efficient and responsive web development.",
-      ],
     },
     {
-      title: "Level Test",
-      company_name: "Smkn 1 Ciomas",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Feb 2023 - Apr 2023",
-      points: [
-        "Developing and maintaining web applications using CodeIgniter 4 Framework and other related technologies.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-      ],
-    },
-    {
-      title: "E-Learning Website Developer",
-      company_name: "PKBM SIB",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Mar 2023 - Present",
-      points: [
-        "Developing and maintaining E-Learning web applications using Framework Laravel and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-      ],
-    },
-    {
-      title: "GameJam",
+      title: "Bogor GameJam",
       company_name: "Create In Bogor",
       icon: tesla,
       iconBg: "#E6DEDD",
@@ -143,9 +110,51 @@ import {
       points: [
         "learning game development using GDevelop Software to create engaging experiences, while refining techniques and innovating in game design.",
         "Collaborating seamlessly within interdisciplinary teams encompassing artists, animators, and fellow developers to collectively realize captivating and cohesive game projects.",
-        "Implementing teams idea into a playable demo.",
       ],
     },
+    {
+      title: "Internship",
+      company_name: "Ginvo Studio",
+      icon: tesla,
+      iconBg: "#383E56",
+      date: "September 2023 - March 2024",
+      points: [
+        "learning game development with Unity Game Engine.",
+        "Working with the task given by the company with the technique learn from our new experinces with the company",
+      ],
+    },
+    {
+      title: "Bogor GameJam",
+      company_name: "Create In Bogor",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "January 2024",
+      points: [
+        "learning more thoroughly using unity to make more refined game prototype.",
+        "Collaborating with team member who have another role with the same idea in mind",
+      ],
+    },
+    {
+      title: "Global GameJam",
+      company_name: "Indie Games Group Indonesia",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "January 2024",
+      points: [
+        "learning more thoroughly using unity to make more refined game prototype.",
+        "Collaborating with team member who have another role with the same idea in mind",
+      ],
+    },
+     {
+      title: "Competence Test",
+      company_name: "Smkn 1 Ciomas",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "Feb 2024",
+      points: [
+        "Creating a game prototype with Unity Game Engine.",
+        "Using the new official multiplayer package from Unity to create multiplayer game.",
+      ],
   ];
   
   const testimonials = [
@@ -226,6 +235,69 @@ import {
         {
           name: "Gdevelop5",
           color: "blue-text-gradient",
+        },
+        {
+          name: "GameDeveloper",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/ShiTatmiyu/Mr.Umbrella",
+    },
+    {
+      name: "Bagas and Friends Game Demo",
+      description:
+        "A Visual Novel created with the collaboration between programmer and artist to make game.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Renpy",
+          color: "green-text-gradient",
+        },
+        {
+          name: "GameDeveloper",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/ShiTatmiyu/Mr.Umbrella",
+    },
+    {
+      name: "Rocket obstacle ground",
+      description:
+        "A normal Platformer game with a twist of rocket jump as the main mechanic of the game.",
+      tags: [
+        {
+          name: "Unity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Platformer Game",
+          color: "green-text-gradient",
+        },
+        {
+          name: "GameDeveloper",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/ShiTatmiyu/Mr.Umbrella",
+    },
+    {
+      name: "PolyDoom Multiplayer Prototype",
+      description:
+        "First Person shooter multiplayer using the new multiplayer packgae from unity.",
+      tags: [
+        {
+          name: "Unity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NetCode",
+          color: "green-text-gradient",
         },
         {
           name: "GameDeveloper",
